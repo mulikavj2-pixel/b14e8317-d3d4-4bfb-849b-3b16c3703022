@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Source_Code_Pro } from "next/font/google";
+import { Prata } from "next/font/google";
 import "./globals.css";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
-const sourceCodePro = Source_Code_Pro({
-  variable: "--font-source-code-pro",
+const prata = Prata({
+  variable: "--font-prata",
   subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -50,7 +51,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
         <body
-          className={sourceCodePro.variable}
+          className={prata.variable}
         >
           <Tag />
           {children}
