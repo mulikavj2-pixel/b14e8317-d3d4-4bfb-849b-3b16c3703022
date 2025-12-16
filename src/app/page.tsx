@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -31,11 +31,10 @@ export default function BrewHavenPage() {
         <NavbarStyleApple
           brandName="Brew Haven"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765898511537-fofgqa0q.jpg"
-          logoAlt="Brew Haven Coffee Logo"
           navItems={[
             { name: "About", id: "about" },
             { name: "Menu", id: "menu" },
-            { name: "Our Story", id: "story" },
+            { name: "Team", id: "team" },
             { name: "Contact", id: "contact" },
             { name: "Blog", id: "blog" }
           ]}
@@ -49,7 +48,7 @@ export default function BrewHavenPage() {
           tags={["Specialty Roasts", "Ethically Sourced", "Fresh Daily", "Expert Baristas"]}
           buttons={[
             { text: "Explore Our Menu", href: "menu" },
-            { text: "Learn Our Story", href: "story" }
+            { text: "Learn Our Story", href: "about" }
           ]}
           showcaseImageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765898512842-cey3gkf6.jpg"
           showcaseImageAlt="Barista creating latte art"
@@ -245,7 +244,7 @@ export default function BrewHavenPage() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765898542067-vao1i27p.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765898543711-te35kq5f.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1765898545425-ea70anfi.jpg"
-          ]
+          ]}
         />
       </div>
 
@@ -274,7 +273,7 @@ export default function BrewHavenPage() {
               title: "Company",
               items: [
                 { label: "About Us", href: "#about" },
-                { label: "Our Story", href: "#story" },
+                { label: "Our Story", href: "#about" },
                 { label: "Careers", href: "#" }
               ]
             },
@@ -291,7 +290,7 @@ export default function BrewHavenPage() {
               items: [
                 { label: "FAQ", href: "#" },
                 { label: "Contact", href: "#contact" },
-                { label: "Blog", href: "#blog" }
+                { label: "Blog", href: "#" }
               ]
             },
             {
