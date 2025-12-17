@@ -50,9 +50,9 @@ export default function BrewHavenPage() {
             { text: "Explore Our Menu", href: "menu" },
             { text: "Learn Our Story", href: "about" }
           ]}
-          showcaseImageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763394160590-bgrxlbok.jpg"
+          showcaseImageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1764776603470-5l3ocnbq.jpg"
           showcaseImageAlt="Barista creating latte art"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763394160590-bgrxlbok.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1764776603470-5l3ocnbq.jpg"
           imageAlt="Coffee shop ambiance"
           showDimOverlay={true}
         />
